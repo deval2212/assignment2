@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <header class="structural">
+       
+        <nav class="structural" >
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <section>
+            <main class="structural">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="Name" id="name" required auto>
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="Name" id="email" required>
+                    </div>
+
+                    <fieldset>
+                        <legend>For which subject you're looking for ?</legend>
+                        <input type="radio" name ="sub" value="Web development" required>
+                        <label for="Web development">Web development</label>
+                        <br>
+                        <input type="radio" name ="sub" value="UX" required>
+                        <label for="UX">User Experience</label>
+                        <br>
+                    </fieldset>
+
+                    <div>
+                        <input type="checkbox" name="robot" value="true" id="robot" required>
+                        <label for="robot">Verify, You're not robot.</label>
+                    </div>
+
+                    <div>
+                        <input type="submit" name="submit" value="Submit" id="submit">
+                    </div>
+                </form>
+
+            </main>
+        </section>
+
+        <footer class="structural">
+            <p>&copy;Deval Mistry 2023</p>
+        </footer>
+    </header>
+</body>
+</html>
